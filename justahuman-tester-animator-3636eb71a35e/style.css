@@ -1,0 +1,29 @@
+.custom-background-picture-wide-1{
+    background-size: 400px;
+    background-position: center;
+    
+    background-image: url('/ii.png');
+    color: white;
+}
+.custom-background-picture-wide-2{
+    background-size: 500px;
+    background-position: top;
+    
+    background-image: url('/ii.png');
+    color: aquamarine;
+}
+a[href^="http"] {
+   background: url('/ii.png') no-repeat; 
+   padding-left: 16px; 
+}
+*{ margin: 0; padding: 0; border: 0; }
+
+
+.images{
+    list-style: none;
+    padding: 0px;
+}
+
+.images > li{
+    display: inline-block;
+}
